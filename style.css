@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/images/Web-background-Image.jpeg);
+    background-size: cover;
+}
+
+
+/* ......header...... */
+main{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff0a;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 3px solid #fff;
+}
+
+
+
+
+#main__1 header{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    padding: 0 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+    border-radius: 10px;
+}
+#main__1 header .link{
+    width: 10vw;
+}
+#main__1 header .link a{
+    padding: 10px 50px;
+    border-radius: 30px;
+    background-color: #797979;
+}
+#main__1 header a:hover{
+    background-color: #ff0000;
+    
+    box-shadow: 0 0 20px 2px #ff0000;
+}
+#main__1 header .nav ul{
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+}
+#main__1 header .nav ul li:hover{
+    color: #ff0000;
+}
+#main__1 .header__1{
+    justify-content: right;
+    
+}
+#main__1 .header__2{
+    justify-content: end;
+}
+#main__1 .header__2 .nav{
+    margin: auto;
+}
+#main__1 .header__1{
+    justify-content: right;
+}
+
+
+
+
+/* ...........image bpx........ */
+#main__2 .section__1{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#main__2 .section__1 .container{
+    background-color: #ffffff49;
+    height: 550px;
+    width: 350px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#main__2 .container img{
+    width: 100%;
+}
+#main__2 .container section{
+    margin-left: 20px;
+}
+#main__2 section .about div{
+    margin-top: 10px;
+}
+#main__2 section .about div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#main__2 section div .dp{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+#main__2 section .about button{
+    height: 50px;
+    width: 150px;
+    background-color: #0077ff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+
+/* ..........main__3.......... */
+#main__4,
+#main__3{
+    background-color: #00000023;
+}
+#main__4 .grid__box,
+#main__3 .grid__box{
+    margin-top: 30px;
+    display: grid;
+    grid-gap: 20px;
+}
+#main__4 .grid__box section,
+#main__3 .grid__box section{
+    height: 150px;
+    width: 50vw;
+    background-color: #33323225;
+    overflow: hidden;
+    display: flex;
+    align-items: left;
+    gap: 20px;
+    opacity: 80%;
+}
+#main__4 section .discription,
+#main__3 section .discription{
+    padding-top: 20px;
+} 
+#main__4 section .discription p,
+#main__3 section .discription p{
+    margin-top: 8px;
+}
+#main__4 .video .vid,
+#main__3 .video .vid{
+    height: 100%;
+    width: 280px;
+}
+
+
+#main__4 section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main__4 section .image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#main__4 section .image img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+#main__4 .grid__box section{
+    background-color: transparent;
+}
+#main__4 .grid__box section button{
+    height: 50px;
+    width: 150px;
+    background-color: #0077ff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+#main__5 .box{
+    height: 50vh;
+    width: 70vw;
+    background-image: url(assets/images/Web-background-Image.jpeg);
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#main__5 .box .inner__box__2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#main__5 .box .inner__box{
+    background-color: #000;
+    height: 40%;
+    width: 100%;
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main__5 .box .inner__box div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+#main__5 .box .inner__box button{
+    height: 50px;
+    width: 150px;
+    background-color: #0077ff;
+    border: 0;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-right: 30px;
+}
